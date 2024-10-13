@@ -14,6 +14,13 @@ body {
     margin: 0;
 }
 
+header a {
+    text-decoration: underline; /* Remove o sublinhado do link */
+    color: #0000ff;
+    padding: 10px 20px; /* Espaçamento interno */
+    display: inline-block;
+}
+
 .container {
     display: flex;
     width: 90vw;
