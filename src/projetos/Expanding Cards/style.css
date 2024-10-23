@@ -14,12 +14,29 @@ body {
     margin: 0;
 }
 
-header a {
-    text-decoration: underline; /* Remove o sublinhado do link */
-    color: #0000ff;
-    padding: 10px 20px; /* Espaçamento interno */
-    display: inline-block;
+header {
+    display: flex;
+    align-self: flex-start;
 }
+
+header > button {
+    padding: 10px;
+    background-color: #008CBA;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+header button > a {
+    text-decoration: none;
+    color: white;
+}
+
+header > button:hover {
+    background-color: #005f73;
+}
+
 
 .container {
     display: flex;
